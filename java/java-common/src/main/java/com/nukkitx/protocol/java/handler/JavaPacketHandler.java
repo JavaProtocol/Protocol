@@ -189,6 +189,22 @@ public interface JavaPacketHandler extends PacketHandler {
         return false;
     }
 
+    default boolean handle(StatusPingPacket packet) {
+        return false;
+    }
+
+    default boolean handle(StatusPongPacket packet) {
+        return false;
+    }
+
+    default boolean handle(StatusQueryPacket packet) {
+        return false;
+    }
+
+    default boolean handle(StatusResponsePacket packet) {
+        return false;
+    }
+
     default boolean handle(SteerBoatPacket packet) {
         return false;
     }
