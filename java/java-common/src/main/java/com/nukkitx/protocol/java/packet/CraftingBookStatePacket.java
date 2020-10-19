@@ -1,8 +1,8 @@
 package com.nukkitx.protocol.java.packet;
 
+import com.github.steveice10.mc.protocol.data.game.window.CraftingBookStateType;
 import com.nukkitx.protocol.java.JavaPacket;
 import com.nukkitx.protocol.java.JavaPacketType;
-import com.nukkitx.protocol.java.data.CraftingBookStateType;
 import com.nukkitx.protocol.java.handler.JavaPacketHandler;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

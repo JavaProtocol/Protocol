@@ -1,10 +1,10 @@
 package com.nukkitx.protocol.java.packet;
 
+import com.github.steveice10.mc.protocol.data.game.entity.metadata.ItemStack;
+import com.github.steveice10.mc.protocol.data.game.window.WindowAction;
+import com.github.steveice10.mc.protocol.data.game.window.WindowActionParam;
 import com.nukkitx.protocol.java.JavaPacket;
 import com.nukkitx.protocol.java.JavaPacketType;
-import com.nukkitx.protocol.java.data.ItemStack;
-import com.nukkitx.protocol.java.data.WindowAction;
-import com.nukkitx.protocol.java.data.WindowActionParam;
 import com.nukkitx.protocol.java.handler.JavaPacketHandler;
 import lombok.Data;
 import lombok.EqualsAndHashCode;

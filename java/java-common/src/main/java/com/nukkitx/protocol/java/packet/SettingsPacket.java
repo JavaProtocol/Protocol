@@ -1,13 +1,13 @@
 package com.nukkitx.protocol.java.packet;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import com.github.steveice10.mc.protocol.data.game.entity.player.HandPreference;
+import com.github.steveice10.mc.protocol.data.game.setting.ChatVisibility;
+import com.github.steveice10.mc.protocol.data.game.setting.SkinPart;
 import com.nukkitx.protocol.java.JavaPacket;
 import com.nukkitx.protocol.java.JavaPacketType;
-import com.nukkitx.protocol.java.data.ChatVisibility;
-import com.nukkitx.protocol.java.data.HandPreference;
-import com.nukkitx.protocol.java.data.SkinPart;
 import com.nukkitx.protocol.java.handler.JavaPacketHandler;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.List;
 

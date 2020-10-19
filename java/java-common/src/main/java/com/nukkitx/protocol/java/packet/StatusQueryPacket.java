@@ -8,8 +8,7 @@ import lombok.EqualsAndHashCode;
 
 @Data
 @EqualsAndHashCode(doNotUseGetters = true, callSuper = false)
-public class LockDifficultyPacket extends JavaPacket {
-    private boolean locked;
+public class StatusQueryPacket extends JavaPacket {
 
     @Override
     public final boolean handle(JavaPacketHandler handler) {
@@ -17,6 +16,6 @@ public class LockDifficultyPacket extends JavaPacket {
     }
 
     public JavaPacketType getPacketType() {
-        return JavaPacketType.LOCK_DIFFICULTY;
+        return JavaPacketType.STATUS_QUERY;
     }
 }

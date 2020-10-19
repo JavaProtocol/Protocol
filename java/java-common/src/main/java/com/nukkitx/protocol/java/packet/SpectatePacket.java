@@ -1,10 +1,10 @@
 package com.nukkitx.protocol.java.packet;
 
-import lombok.Data;
-import lombok.EqualsAndHashCode;
 import com.nukkitx.protocol.java.JavaPacket;
 import com.nukkitx.protocol.java.JavaPacketType;
 import com.nukkitx.protocol.java.handler.JavaPacketHandler;
+import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.UUID;
 
