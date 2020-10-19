@@ -45,6 +45,14 @@ public interface JavaPacketHandler extends PacketHandler {
         return false;
     }
 
+    default boolean handle(EncryptionRequestPacket packet) {
+        return false;
+    }
+
+    default boolean handle(EncryptionResponsePacket packet) {
+        return false;
+    }
+
     default boolean handle(EntityNbtRequestPacket packet) {
         return false;
     }
@@ -62,6 +70,30 @@ public interface JavaPacketHandler extends PacketHandler {
     }
 
     default boolean handle(LockDifficultyPacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginDisconnectPacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginPluginRequestPacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginPluginResponsePacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginSetCompressionPacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginStartPacket packet) {
+        return false;
+    }
+
+    default boolean handle(LoginSuccessPacket packet) {
         return false;
     }
 
