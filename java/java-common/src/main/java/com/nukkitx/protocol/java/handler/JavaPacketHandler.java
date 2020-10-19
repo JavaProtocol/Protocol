@@ -9,6 +9,10 @@ public interface JavaPacketHandler extends PacketHandler {
         return false;
     }
 
+    default boolean handle(BlockNbtRequestPacket packet) {
+        return false;
+    }
+
     default boolean handle(ChatPacket packet) {
         return false;
     }
@@ -38,6 +42,14 @@ public interface JavaPacketHandler extends PacketHandler {
     }
 
     default boolean handle(EditBookPacket packet) {
+        return false;
+    }
+
+    default boolean handle(EntityNbtRequestPacket packet) {
+        return false;
+    }
+
+    default boolean handle(GenerateStructuresPacket packet) {
         return false;
     }
 
@@ -141,7 +153,23 @@ public interface JavaPacketHandler extends PacketHandler {
         return false;
     }
 
+    default boolean handle(SpectatePacket packet) {
+        return false;
+    }
+
+    default boolean handle(SteerBoatPacket packet) {
+        return false;
+    }
+
+    default boolean handle(SteerVehiclePacket packet) {
+        return false;
+    }
+
     default boolean handle(TabCompletePacket packet) {
+        return false;
+    }
+
+    default boolean handle(TeleportConfirmPacket packet) {
         return false;
     }
 
@@ -157,7 +185,15 @@ public interface JavaPacketHandler extends PacketHandler {
         return false;
     }
 
+    default boolean handle(UpdateSignPacket packet) {
+        return false;
+    }
+
     default boolean handle(UpdateStructureBlockPacket packet) {
+        return false;
+    }
+
+    default boolean handle(VehicleMovePacket packet) {
         return false;
     }
 
